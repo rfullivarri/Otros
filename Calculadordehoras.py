@@ -1,11 +1,10 @@
 total= lambda hora, precio: hora * precio if hora <=40 else 40 * precio + (hora - 40) * 1.5 * precio
+
 # def calculo(hora, precio):
 #     if hora <= 40 :
-#         total = hora * precio
-    
+#         total = hora * precio  
 #     else:
-#         total = 40 * precio + (hora - 40) * 1.5 * precio
-    
+#         total = 40 * precio + (hora - 40) * 1.5 * precio    
 #     return(total)
 
 x= 0
